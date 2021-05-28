@@ -1,0 +1,8 @@
+.ErrorText {
+  font-size: 12px;
+  color: red;
+}
+.ErrorText::before {
+  display: inline;
+  content: "⚠ ";
+}

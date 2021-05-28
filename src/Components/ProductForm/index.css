@@ -1,0 +1,11 @@
+.inputText .MuiOutlinedInput-root {
+  border-radius: 50px;
+}
+
+  .ErrorText{
+    color: red;
+  }
+  .ErrorText::before {
+    display: inline;
+    content: "⚠ ";
+  }
